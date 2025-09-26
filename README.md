@@ -34,7 +34,18 @@
   - Integration of detection and tracking for multi-object scenarios.
   - Practical understanding of uncertainty reduction and identity preservation in MOT.
 
-## Lab 4: Homography Estimation and Panorama Stitching
+## Lab 4: Particle Filter for Object Tracking
+- **Objective**: Implement a particle filter for single-object tracking using color-based appearance models.
+- **Key Topics**:
+  - Appearance models: pixel-wise MSE and HSV histogram comparison.
+  - Particle filter: state propagation, weight update, and resampling.
+  - Tracking objects with non-constant velocity in videos.
+- **Skills Applied**:
+  - Implementation of particle filter with generic state and measurement models.
+  - Design of robust appearance models for visual tracking.
+  - Integration of prediction, update, resampling, and state estimation.
+
+## Lab 5: Homography Estimation and Panorama Stitching
 - **Objective**: Estimate homographies between images using the DLT algorithm and improve robustness with RANSAC for applications such as document rectification and panorama creation.
 - **Key Topics**:
   - Direct Linear Transform (DLT): normalization, matrix construction, SVD, and discussion of required keypoints and degrees of freedom.
@@ -48,7 +59,7 @@
   - Use of OpenCV for keypoint detection, matching, and image warping.
   - Practical construction of document rectification and panoramas.
 
-## Lab 5: Camera Calibration with Chessboard Patterns
+## Lab 6: Camera Calibration with Chessboard Patterns
 - **Objective**: Implement a complete camera calibration pipeline using chessboard images and compare the results with OpenCV’s built-in calibration function.
 - **Key Topics**:
   - Homography estimation with DLT and its role in calibration.
