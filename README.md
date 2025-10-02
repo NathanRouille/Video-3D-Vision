@@ -1,4 +1,4 @@
-Video and 3D Vision: Practical Notebooks
+Video and 3D Vision: Practical Notebooks 
 
 This repository contains my lab works for the Video and 3D Vision course. Each lab explores a fundamental computer vision topic, combining theoretical concepts with hands-on Python and OpenCV implementations. Below is a summary of the content and skills applied in each lab.
 
